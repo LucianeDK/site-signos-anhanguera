@@ -1,15 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html;
-charset=iso-8859-1" />
-<title>Notícias Dev Media</title>
-</head>
-<body>
-<h1>Notícias Dev Media</h1>
 <?php
-    $link = "http://www.devmedia.com.br/xml/devmedia_full.xml";
+    $mes = $_GET["f_mes"];
+    $dia = $_GET["f_dia"];
+
+    echo "Dia: ". $dia . "<br/>Mês: ". $mes ."<br/>";
+
+    echo '<a href="index.html">Voltar</a>';
+
+
+    /*$link = "http://www.devmedia.com.br/xml/devmedia_full.xml";
     //link do arquivo xml
     $xml = simplexml_load_file($link) -> channel;
     //carrega o arquivo XML e retornando um Array
@@ -29,7 +27,5 @@ charset=iso-8859-1" />
         echo "<strong>Data:</strong> "
         .utf8_decode($item -> pubDate)."<br />";
         echo "<br />";
-    } //fim do foreach
+    } //fim do foreach*/
 ?>
-</body>
-</html>
