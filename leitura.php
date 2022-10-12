@@ -1,13 +1,34 @@
 <?php
+
+    
     $mes = $_GET["f_mes"];
     $dia = $_GET["f_dia"];
 
-    echo "Dia: ". $dia . "<br/>Mês: ". $mes ."<br/>";
+    $xml = simplexml_load_file('document.xml');
 
-    echo '<a href="index.html">Voltar</a>';
+    echo $xml;
 
+   
+    //Verifica a data e imprime o conteúdo correspondente ao sígno da data.
+    //Caso seja uma data inválida, imprime uma frase de aviso e um botão para retornar a página inicial.
+    if (checkdate($dia,$mes,2021)){
+        if ($mes == 1) {
+            if ($dia < 21) {
+                foreach($xml->signos->signo as $signo):
+                    if ($signo->signoNome == "Capricórnio"){
+                        echo '<h1>Você é de Capricórnio!</h1>';
+                    };
+                endforeach;
+            } else {
+                echo 'Você é de Ares!<br/><br/><a href="./index.html">Voltar</a>';
+            }
+        }
+    } else{
+        echo 'A data informada é inválida u.u<br/><br/><a href="index.html">Voltar</a>';
+    };
 
-    /*$link = "http://www.devmedia.com.br/xml/devmedia_full.xml";
+ /*
+$link = "http://www.devmedia.com.br/xml/devmedia_full.xml";
     //link do arquivo xml
     $xml = simplexml_load_file($link) -> channel;
     //carrega o arquivo XML e retornando um Array
