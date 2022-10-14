@@ -1,9 +1,75 @@
-<?xml version='1.0' encoding='UTF-8?'?>
+<?xml version="1.0" encoding="UTF-8" ?>
     <signos>
         <signo>
             <datainicio>22/12</datainicio>
             <datafim>20/01</datafim>
             <signoNome>Capricórnio</signoNome>
-            <descrição></descrição>
+            <descricao>ELEMENTO: TERRA CARDINAL PLANETA REGENTE: SATURNO Quem tem sol em Capricórnio costuma ter seus propósitos e metas bem definidos. Signo de praticidade que segue as regras do jogo tem total noção dos seus limites. Capricórnio é maduro e bem humorado, mas também pode ser frio nas relações e um tanto pessimista. Foco e paciência em suas metas.  Tudo tem seu tempo.</descricao>
+        </signo>
+        <signo>
+            <datainicio>21/01</datainicio>
+            <datafim>19/02</datafim>
+            <signoNome>Aquário</signoNome>
+            <descricao>ELEMENTO: AR FIXO PLANETA REGENTE: SATURNO E URANO Quem tem sol em Aquário costuma ter a amizade como cartão de visita e ter uma conexão intensa com a liberdade. Signo idealista, tende a dar preferência aos diálogos racionais. Aquário é solidário e humano, também pode ser radical e bem “do contra”. O apreço pelo clássico. Quebrando regras e paradigmas.</descricao>
+        </signo> 
+        <signo>
+            <datainicio>20/02</datainicio>
+            <datafim>20/03</datafim>
+            <signoNome>Peixes</signoNome>
+            <descricao>ELEMENTO: ÁGUA MUTÁVEL PLANETA REGENTE: JÚPITER E NETUNO Quem tem sol em Peixes costuma entender tudo sem precisar de muitas palavras, possuem uma sensibilidade superior. Signo compassivo e inspirador, Peixes tende a ter uma forte conexão com a espiritualidade, mas pode se iludir com certa facilidade. Um oceano de sentimentos. Um mundo de imaginações.</descricao>
+        </signo> 
+        <signo>
+            <datainicio>21/03</datainicio>
+            <datafim>20/04</datafim>
+            <signoNome>Áries</signoNome>
+            <descricao>ELEMENTO: FOGO CARDINAL PLANETA REGENTE: MARTE Quem tem sol em Áries costuma viver no agora; além de possuir um grande prazer em existir, ação e decisão também podem ser algumas de suas marcas. A liderança é uma característica forte no signo, que pode ser usada para o empreendedorismo. Tendência pelo imediatismo e pela impulsividade. Força para lutar.</descricao>
+        </signo>
+        <signo>
+            <datainicio>21/04</datainicio>
+            <datafim>20/05</datafim>
+            <signoNome>Touro</signoNome>
+            <descricao>ELEMENTO E RITMO: TERRA FIXO PLANETA REGENTE: VÊNUS Quem tem sol em Touro costuma não abrir mão do que traz conforto e bem-estar, mas pode ter a possessividade em evidência. O signo preza pela beleza física e pela gula. A satisfação de Touro vem do contato com todos os cinco sentidos. Apego e dificuldade em lidar com mudanças. Amor é segurança.</descricao>
+        </signo>
+        <signo>
+            <datainicio>21/05</datainicio>
+            <datafim>20/06</datafim>
+            <signoNome>Gêmeos</signoNome>
+            <descricao>ELEMENTO E RITMO: AR MUTÁVEL PLANETA REGENTE: MERCÚRIO Quem tem sol em Gêmeos costuma apreciar novas ideias, novos lugares e novas pessoas. Gêmeos tem carisma de sobra e tende a fazer amigos com muita facilidade. A superficialidade e a inconsequência também podem ser algumas das marcas do signo. Agilidade mental e efervescência de ideias. Agente da comunicação.</descricao>
+        </signo>
+        <signo>
+            <datainicio>21/06</datainicio>
+            <datafim>21/07</datafim>
+            <signoNome>Câncer</signoNome>
+            <descricao>ELEMENTO E RITMO: ÁGUA CARDINAL PLANETA REGENTE: LUA Quem tem sol em Câncer costuma buscar o que lhe traz segurança. O signo é maternal e emotivo e tem uma proximidade com o apego ao passado. Câncer costuma ter a intuição acentuada, sentir as coisas no ar e captar tudo logo no primeiro olhar. Instinto para agir com as emoções. Sentimentos à flor da pele.</descricao>
+        </signo>
+        <signo>
+            <datainicio>22/07</datainicio>
+            <datafim>22/08</datafim>
+            <signoNome>Leão</signoNome>
+            <descricao>ELEMENTO E RITMO: FOGO FIXO PLANETA REGENTE: SOL Quem tem sol em Leão costuma amar plateias e aplausos. O signo tem a coragem e o humor como marcas registradas, mas também o orgulho e o autoritarismo. Leão geralmente valoriza as oportunidades e aproveita cada momento, sabe amar e ter generosidade. Irradia brilho natural. O centro das atenções.</descricao>
+        </signo>
+        <signo>
+            <datainicio>23/08</datainicio>
+            <datafim>22/09</datafim>
+            <signoNome>Virgem</signoNome>
+            <descricao>ELEMENTO E RITMO: TERRA MUTÁVEL PLANETA REGENTE: MERCÚRIO Quem tem sol em Virgem costuma buscar constantemente a perfeição, tudo sempre poderia estar um pouco melhor. Signo observador, que costuma identificar o detalhe que ninguém mais percebe. Virgem tem praticidade e organização, mas também pode ser frio e cético. Consegue fazer as mudanças necessárias. A visão crítica e opinativa.</descricao>
+        </signo> 
+        <signo>
+            <datainicio>23/09</datainicio>
+            <datafim>22/10</datafim>
+            <signoNome>Libra</signoNome>
+            <descricao>ELEMENTO E RITMO: AR CARDINAL PLANETA REGENTE: VÊNUS Quem tem sol em Libra costuma buscar sempre o equilíbrio e conviver com a indecisão. Regido por Vênus, o signo tem uma aproximação natural com as artes. Libra costuma ter ética, mas também pode ter vaidade em excesso e comportamentos considerados de “mau gosto”. Forte conexão com a racionalidade. O amor idealizado.</descricao>
+        </signo>
+        <signo>
+            <datainicio>23/10</datainicio>
+            <datafim>21/11</datafim>
+            <signoNome>Escorpião</signoNome>
+            <descricao>ELEMENTO E RITMO: ÁGUA FIXO PLANETA REGENTE: MARTE E PLUTÃO Quem tem sol em Escorpião costuma ter muita perspicácia, não é a toa que são naturalmente detetives. O sexto sentido do signo alerta para possíveis “perigos” logo de cara. Escorpião tem uma capacidade de regeneração única, mas também pode ter muitos ciúmes. Um oceano profundo e inexplorado. Força transformadora.</descricao>
+        </signo> 
+        <signo>
+            <datainicio>22/11</datainicio>
+            <datafim>21/12</datafim>
+            <signoNome>Sagitário</signoNome>
+            <descricao> ELEMENTO E RITMO: FOGO MUTÁVEL PLANETA REGENTE: JÚPITER Quem tem sol em Sagitário costuma ser viajante, sua casa é o mundo inteiro. O signo viaja muito também em sua própria mente. Não tente aprisionar Sagitário de nenhuma forma, ele não aceita limites. Otimista e jovial, pode ter exageros e uma dose de deboche. O agente da motivação. Quanto mais… Melhor.</descricao>
         </signo> 
     </signos>
